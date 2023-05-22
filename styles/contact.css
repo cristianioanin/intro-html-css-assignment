@@ -20,12 +20,17 @@ fieldset.fieldset-columns {
 
 fieldset.fieldset-columns label {
   padding: 0.2em 0.8em;
+  min-width: 230px;
 }
 
 form {
   display: grid;
   margin-top: 2rem;
   margin-bottom: 5rem;
+}
+
+form textarea {
+  resize: vertical;
 }
 
 form button {
