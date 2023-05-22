@@ -1,0 +1,44 @@
+fieldset {
+  border-color: var(--color-marine);
+  padding: 1em;
+  margin: 1em 0;
+}
+
+fieldset label,
+fieldset input,
+fieldset textarea,
+fieldset option {
+  font-size: 1.2rem;
+  padding: 0.2em;
+}
+
+fieldset.fieldset-columns {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  row-gap: 1em;
+}
+
+fieldset.fieldset-columns label {
+  padding: 0.2em 0.8em;
+}
+
+form {
+  display: grid;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+form button {
+  font-size: 2rem;
+  color: var(--color-marine);
+  border: 0.1em solid var(--color-marine);
+  border-radius: 0.25em;
+  padding: 0.25em 0.75em;
+  justify-self: end;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: var(--color-marine);
+  color: #fff;
+}
