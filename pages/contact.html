@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework | Contact</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+      </ul>
+    </nav>
+    <header>
+      <img
+        src="https://images.unsplash.com/photo-1655720855348-a5eeeddd1bc4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80"
+        alt="A group of bubbles photo mimicking an AI neural newtork - Free Artificial intelligence Image on Unsplash"
+      />
+      <h1>CONTACT | AI Neural Networks</h1>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Message</legend>
+          <label for="email">Your email</label>
+          <input type="email" id="email" placeholder="mail@domain.com" />
+
+          <label for="subject">What is your interest?</label>
+          <select name="subject" id="subject">
+            <option value="rendering">3D Rendering</option>
+            <option value="ai" selected>AI APIs Integration</option>
+            <option value="neral">Neural Networks</option>
+          </select>
+          <legend>Your message</legend>
+          <label for="message">Your message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Write your message here..."
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <legend id="subscribe-title">Subscribe to Newsletter</legend>
+          <input
+            type="radio"
+            name="newsletter"
+            id="newsletter-yes"
+            aria-describedby="subscribe-title"
+          />
+          <label for="newsletter-yes">Yes</label>
+          <input
+            type="radio"
+            name="newsletter"
+            id="newsletter-no"
+            aria-describedby="subscribe-title"
+          />
+          <label for="newsletter-no">No</label>
+        </fieldset>
+        <fieldset>
+          <legend>Privacy Policy</legend>
+          <input type="checkbox" name="policy" id="policy" />
+          <label for="policy"
+            >I have read and agree to the Privacy Policy</label
+          >
+        </fieldset>
+        <button>Send</button>
+      </form>
+    </main>
+  </body>
+</html>
